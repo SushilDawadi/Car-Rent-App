@@ -23,7 +23,7 @@ const SearchManufacturer = ({
   //replace is used to remove all the empty spaces(removing empty spaces from query and manufacturer list)
   return (
     <div className="search-manufacturer">
-      <Combobox onChange={setManufacturer}>
+      <Combobox onChange={setManufacturer} value={manufacturer}>
         <div className="realtive w-full">
           <Combobox.Button className="absolute top-[14px]">
             <Image
